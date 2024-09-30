@@ -1,0 +1,103 @@
+body {
+  /* Set the font family to Arial, sans-serif */
+  font-family: Arial, sans-serif;
+  /* Set the background color to light gray */
+  background-color: #f0f0f0;
+}
+
+/* Navigation styles */
+nav {
+  /* Set the background color to dark blue */
+  background-color: #003366;
+  /* Set the text color of navigation links to white */
+  color: #ffffff;
+}
+
+nav a {
+  /* Set the text color of links to white */
+  color: #ffffff;
+  /* Remove underline from links */
+  text-decoration: none;
+  /* Position links inline */
+  display: inline;
+}
+
+/* Table styles */
+#table-section table {
+  /* Set the border collapse for table borders */
+  border-collapse: collapse;
+  /* Set the background color for table rows */
+  background-color: #ffffff;
+
+}
+
+#table-section th, #table-section td {
+  /* Set the border color for table cells */
+  border: 1px solid #dddddd;
+  /* Set the text alignment to left */
+  text-align: left;
+  background-color: rgb(230,247,255);
+}
+
+#table-section th {
+  /* Set the background color of table headers to light blue */
+  background-color: #e6f7ff;
+}
+
+/* Form styles */
+#form-section form {
+  /* Set the background color of the form to white */
+  background-color: #ffffff;
+  /* Set a border around the form */
+  border: 1px solid #cccccc;
+  border-color: rgb(204,204,204);
+  
+}
+.submit{
+  background-color: rgb(0,123,255);
+}
+#form-section label {
+  /* Set the display of labels to block */
+  display: block;
+}
+
+#form-section input[type="text"],
+#form-section input[type="email"] {
+  /* Set the border color for input fields */
+  border: 1px solid #cccccc;
+}
+
+#form-section input[type="submit"] {
+  /* Set the background color of the submit button to blue */
+  background-color: #007bff;
+  /* Set the text color of the submit button to white */
+  color: #ffffff;
+}
+
+/* Ordered list styles */
+#ordered-list-section ol {
+  /* Set the list style type to decimal */
+  list-style-type: decimal;
+}
+
+/* Unordered list styles */
+#unordered-list-section ul {
+  /* Set the list style type to disc */
+  list-style-type: disc;
+}
+
+/* Block elements styles */
+#block-elements {
+  /* Set the background color for block elements */
+  background-color:rgb(255,255,0);
+  /* Set the border color for block elements */
+  border: 1px solid #dddddd;
+  padding:10px
+}
+
+/* Inline elements styles */
+#inline-elements {
+  /* Set the background color for inline elements */
+  background-color:rgb(255,255,255);
+  font-size: 16px;
+}
